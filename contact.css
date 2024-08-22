@@ -1,0 +1,97 @@
+.contact_container{
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+/* ===============================ASIDE SECTION========================== */
+.contact_aside{
+    margin-left: -40px;
+    width: 405px;
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.aside_image{
+    margin-left: -58px;
+}
+
+H2.aside{
+    margin-left: -155px;
+    margin-bottom: 1px;
+    /* text-align: left; */
+    margin-top: -9px;
+}
+
+.contact_aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact_details li{
+    margin-block: 16px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact_socials{
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.contact_socials a{
+    background: var(--color-bg2);
+    padding: 0.5rem;
+    border-radius: 558px;
+    /* font-size: -24.9rem; */
+    transition: var(--transition);
+    
+}
+
+.contact_socials a:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+
+/* ===================================== CONTACT FORM ========================================= */
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+
+.form_name{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.contact_form input[type="text"]{
+    width: 50%;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+.contact_form .btn{
+    width: max-content;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+
